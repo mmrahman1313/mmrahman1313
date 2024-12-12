@@ -57,7 +57,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                         loop: true,
                       }}
                     /> */}
-                    <h4 className="text-7 w-2 mt-2 ml-2 text-light">
+                    <h4 className="text-3  mt-2 ml-2 text-light">
                       Creating stunning visuals and <br /> user-friendly designs
                       to elevate brands effectively.
                     </h4>

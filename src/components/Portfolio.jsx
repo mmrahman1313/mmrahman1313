@@ -19,7 +19,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
 
   const projectsData = [
     {
-      title: "Project Title 1",
+      title: "",
       projectInfo:
         "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
       client: "Ruby Clinton",
@@ -238,7 +238,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
             <h2
               className={
                 "text-24  text-uppercase fw-600 w-100 mb-0 " +
-                (darkTheme ? "text-muted opacity-1" : "text-light opacity-4")
+                (darkTheme ? "text-light opacity-1" : "text-muted opacity-4")
               }
             >
               Portfolio

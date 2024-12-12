@@ -4,32 +4,32 @@ const WorkingProcess = ({ classicHeader, darkTheme }) => {
         {
           name: "Define the Purpose and Audience",
           desc: "Understand the goals of the website or app and the target audience. This helps in shaping the features, design, and user experience.",
-          icon: "fas fa-bullseye", // Represents defining goals and audience
+          icon: "fas fa-bullseye", 
         },
         {
           name: "Conceptualization",
           desc: "Brainstorm the features, layout, and user flow of the website or app. Initial wireframes and design ideas are created during this phase.",
-          icon: "fas fa-lightbulb", // Represents brainstorming and ideas
+          icon: "fas fa-lightbulb", 
         },
         {
           name: "UI/UX Design",
           desc: "Design the interface for the website or app, ensuring a user-friendly experience. This step focuses on design aesthetics and user flow.",
-          icon: "fas fa-pencil-ruler", // Represents design and user interface tools
+          icon: "fas fa-pencil-ruler",
         },
         {
-          name: "Website/App Development",
-          desc: "Convert the designs into a fully functional website or app, using the appropriate technology to ensure smooth performance, scalability, and security.",
-          icon: "fas fa-code", // Represents coding and development
+          name: "Visual Design and Branding",
+          desc: "We create high-quality visual assets, including logos, graphics, and other brand elements, ensuring consistency across all design elements. We aim to create a cohesive visual identity for your brand",
+          icon: "fa-sharp fa-regular fa-object-group", 
         },
         {
-          name: "Testing and Quality Assurance",
-          desc: "Test the website or app across various devices, browsers, and environments. Identify bugs, usability issues, and ensure it meets high-quality standards.",
-          icon: "fas fa-check-circle", // Represents testing and quality assurance
+          name: "Quality Assurance",
+          desc: "Before finalizing the designs, we conduct thorough testing to ensure the user interface works seamlessly across devices. We check for usability, responsiveness, and overall user experience",
+          icon: "fas fa-check-circle", 
         },
         {
           name: "Project Handover",
-          desc: "Deliver the final design, website, or app with essential files, assets, and documentation. Provide support for installation, updates, and optimization to ensure long-term success.",
-          icon: "fas fa-handshake", // Represents handover and collaboration
+          desc: "Provide finalized design files, prototypes, and guidelines with full documentation. Offer support for implementation and maintenance, ensuring seamless integration and consistent design quality for long-term success.",
+          icon: "fas fa-handshake", 
         },
       ];
       

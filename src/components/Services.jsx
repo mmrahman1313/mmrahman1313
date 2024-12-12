@@ -5,33 +5,33 @@ const Services = ({ classicHeader, darkTheme }) => {
   const services = [
     {
       name: "Graphic Design",
-      desc: "Transform your ideas into stunning visuals that captivate and communicate your brand’s essence. Our designs don’t just look great—they drive engagement and leave lasting impressions.",
+      desc: "Enhance your brand with custom graphic design! I create eye-catching logos, marketing materials, and visuals that effectively communicate your message. Let’s craft designs that leave a lasting impression!",
       icon: "fas fa-palette",
     },
     {
       name: "UI/UX Design",
-      desc: "Create seamless, intuitive digital experiences that delight users and enhance functionality. Our UI/UX solutions are crafted to ensure your products are not only beautiful but user-friendly and efficient.",
+      desc: "Transform your mobile and website experience with intuitive UI/UX design! I craft user-friendly, visually engaging designs that enhance usability and captivate your audience. Let’s create a seamless digital journey together!",
       icon: "fas fa-pencil-ruler",
     },
     {
       name: "Branding & Identity Design:",
       desc: "Build a memorable and cohesive brand identity that stands out. We specialize in designing logos and brand elements that truly reflect your company’s values and mission, making your business unforgettable.",
+      icon: "fa-sharp fa-solid fa-pen-nib-slash",
+    },
+    {
+      name: "Visual Design",
+      desc: "Elevate your brand with stunning visual design! I create impactful visuals, from illustrations to layouts, ensuring your message stands out and connects with your audience. Let’s bring your vision to life!",
       icon: "fas fa-paint-brush",
     },
     {
-      name: "App Design & Develop",
-      desc: "From concept to launch, we design and develop intuitive, high-performance apps that provide smooth user experiences. Whether mobile or web, we deliver apps that elevate your business.",
-      icon: "fas fa-paint-brush",
+      name: "Digital Content",
+      desc: "Digital content includes visuals, videos, and online materials that engage your audience and boost your brand. I create tailored, high-quality digital content to elevate your online presence effectively",
+      icon: "fa-solid fa-photo-film ",
     },
     {
-      name: "Content Creation",
-      desc: "Engage your audience with compelling content that resonates. From blog posts to social media campaigns, we create content that connects, educates, and drives conversions, tailored to your brand voice.",
-      icon: "fas fa-chart-area",
-    },
-    {
-      name: "Digital Marketing & SEO",
-      desc: "Boost your online presence with our expert digital marketing and SEO strategies. We optimize your website, enhance visibility, and drive growth, ensuring your business ranks higher and attracts the right audience.",
-      icon: "fas fa-bullhorn",
+      name: "Wizardd IT",
+      desc: "Need Service and complete project solutions? Contact Wizardd IT for end-to-end services that bring your vision to life. Visit wizarddit.com and let's create something exceptional together!",
+      icon: "fa-solid fa-hat-wizard",
     },
   ];
 

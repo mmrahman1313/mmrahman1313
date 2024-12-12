@@ -1,5 +1,4 @@
 import React from "react";
-import resumeFile from "../documents/resume.pdf";
 
 const Resume = ({ classicHeader, darkTheme }) => {
   const educationDetails = [
@@ -56,24 +55,24 @@ const Resume = ({ classicHeader, darkTheme }) => {
     },
   ];
 
-  const skills = [
-    {
-      name: "UI/UX Design (Web & Mobile)",
-      percent: 95,
-    },
-    {
-      name: "UI/UX Design (Web & Mobile)",
-      percent: 90,
-    },
-    {
-      name: "Web & App Development",
-      percent: 80,
-    },
-    {
-      name: "SEO & Digital Marketing",
-      percent: 90,
-    },
-  ];
+  // const skills = [
+  //   {
+  //     name: "UI/UX Design (Web & Mobile)",
+  //     percent: 95,
+  //   },
+  //   {
+  //     name: "UI/UX Design (Web & Mobile)",
+  //     percent: 90,
+  //   },
+  //   {
+  //     name: "Web & App Development",
+  //     percent: 80,
+  //   },
+  //   {
+  //     name: "SEO & Digital Marketing",
+  //     percent: 90,
+  //   },
+  // ];
 
   return (
     <section
@@ -86,7 +85,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
           <h2
             className={
               "text-24  text-uppercase fw-600 w-100 mb-0 " +
-              (darkTheme ? "text-muted opacity-1" : "text-light opacity-4")
+              (darkTheme ? "text-light opacity-1" : "text-muted opacity-4")
             }
           >
             Summary
@@ -177,7 +176,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
           </div>
         </div>
         {/* My Skills */}
-        <h2
+        {/* <h2
           className={
             "text-6 fw-600 mt-4 mb-4 " + (darkTheme ? "text-white" : "")
           }
@@ -213,7 +212,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
                 </div>
               </div>
             ))}
-        </div>
+        </div> */}
         <div className="text-center mt-5">
           <a
             className="btn btn-outline-secondary rounded-pill shadow-none"
