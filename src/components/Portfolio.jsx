@@ -3,54 +3,54 @@ import { motion } from 'framer-motion';
 
 const projects = [
   
-  { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 1, title: "Elephant", category: "UI/UX", image: "https://i.ibb.co.com/23yYWR9/Elephant.png" },
-  { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 9, title: "Project I", category: "UI/UX", image: "https://i.ibb.co.com/fQDx2py/West-Mining.png" },
-  { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 333, title: 'Wizardd IT', category: "Digital Content", video: 'https://res.cloudinary.com/dkxmy7tds/video/upload/v1734340577/Wizardd_it_video_rs7qja.mp4' },
-  { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 332, title: 'West Mining Intro', category: "Digital Content", video: 'https://res.cloudinary.com/dkxmy7tds/video/upload/v1734340742/West_Mining_Intro_xuhrtf.mp4' },
-  { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 451, title: "Visual Design Project 1", category: "Visual Design", image: "https://i.ibb.co.com/1ryNP79/1.jpg" },
-  { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 452, title: "Visual Design Project 2", category: "Visual Design", image: "https://i.ibb.co.com/SKGkQw3/2.jpg" },
-  { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 4511, title: "Visual Design Project 11", category: "Visual Design", image: "https://i.ibb.co.com/L0bPVT5/11.png" },
-  { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 4512, title: "Visual Design Project 12", category: "Visual Design", image: "https://i.ibb.co.com/mDNhjYF/12.png" },
-  { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 3, title: "Project C", category: "UI/UX", image: "https://i.ibb.co.com/WGg216j/Jewellery.png" },
-  { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 4, title: "Project D", category: "UI/UX", image: "https://i.ibb.co.com/PztztDB/MIndfit.png" },
-  { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 453, title: "Visual Design Project 3", category: "Visual Design", image: "https://i.ibb.co.com/jhZdkL9/3.jpg" },
-  { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 454, title: "Visual Design Project 4", category: "Visual Design", image: "https://i.ibb.co.com/2gQ9LpM/4.jpg" },
- 
+  { details: 'Web-3 Elephant Coin UI/UX Design delivers a seamless, user-friendly interface for a blockchain-based platform.' , id: 1, title: "Elephant Coin", category: "UI/UX", image: "https://i.ibb.co.com/23yYWR9/Elephant.png" },
+  { details: 'West Mining UI/UX Design focuses on creating a seamless, user-friendly UI tailored for efficient and engaging mining operations management.' , id: 9, title: "West Mining", category: "UI/UX", image: "https://i.ibb.co.com/fQDx2py/West-Mining.png" },
+  { details: 'Wizarddit ' , id: 333, title: 'Wizardd IT', category: "Digital Content", video: 'https://res.cloudinary.com/dkxmy7tds/video/upload/v1734340577/Wizardd_it_video_rs7qja.mp4' },
+  { details: 'West Mining Intro ' , id: 332, title: 'West Mining Intro', category: "Digital Content", video: 'https://res.cloudinary.com/dkxmy7tds/video/upload/v1734340742/West_Mining_Intro_xuhrtf.mp4' },
+  { details: 'Stationery for a Cleaning Company reflects professionalism, cleanliness, and trust through sleek, minimalist designs.' , id: 4513, title: "Stationary for Cleaning Company", category: "Visual Design", image: "https://i.ibb.co.com/tXnPLJV/13.png" },
+  { details: 'MONSTACKDEV logo represents innovation and expertise, crafted to reflect the modern, tech-driven focus of the developer company.' , id: 4515, title: "MONSTACKDEV Logo", category: "Visual Design", image: "https://i.ibb.co.com/2d8DWDF/15.png" },
+  { details: 'Eletricare poster design highlights professionalism and reliability, showcasing electronic services with a sleek, modern aesthetic.' , id: 4511, title: "Eletricare Poster", category: "Visual Design", image: "https://i.ibb.co.com/L0bPVT5/11.png" },
+  { details: 'World Jewellery UI/UX design offers an elegant, user-friendly experience for browsing and purchasing fine jewelry online.' , id: 3, title: "World Jewellery", category: "UI/UX", image: "https://i.ibb.co.com/WGg216j/Jewellery.png" },
+  { details: '16th December social media post design commemorates Bangladeshs Victory Day, reflecting pride, freedom, and patriotism' , id: 451, title: "Victory Day of Bangladesh", category: "Visual Design", image: "https://i.ibb.co.com/1ryNP79/1.jpg" },
+  { details: 'Tree Care poster design showcases services focused on tree health, maintenance, and preservation.' , id: 4512, title: "Tree Care", category: "Visual Design", image: "https://i.ibb.co.com/mDNhjYF/12.png" },
+  { details: 'Mind Fit mobile UI/UX design offers a clean, intuitive interface for a seamless mental wellness experience.' , id: 4, title: "Mind Fit", category: "UI/UX", image: "https://i.ibb.co.com/PztztDB/MIndfit.png" },
+  // { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 453, title: "Visual Design Project 3", category: "Visual Design", image: "https://i.ibb.co.com/jhZdkL9/3.jpg" },
+  { details: 'Crypto Pay letter logo by CP design represents a modern, sleek identity for a secure cryptocurrency payment platform.' , id: 4516, title: "Crypto Pay", category: "Visual Design", image: "https://i.ibb.co.com/vPYVHkr/16.png" },
+  { details: 'Mining equipment post design highlights durability and performance, showcasing essential tools for efficient mining operations.' , id: 452, title: "Mining Equipment ", category: "Visual Design", image: "https://i.ibb.co.com/SKGkQw3/2.jpg" },
+  { details: 'ADONAI CREATIONS logo design reflects creativity and elegance, representing a brand focused on innovative and high-quality creations.' , id: 4517, title: "ADONAI CREATIONS", category: "Visual Design", image: "https://i.ibb.co.com/HTjTX0R/17.png" },
+  
   // { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 457, title: "Visual Design Project 7", category: "Visual Design", image: "https://i.ibb.co.com/FJ9GbDy/7.jpg" },
-  { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 458, title: "Visual Design Project 8", category: "Visual Design", image: "https://i.ibb.co.com/XJ4RJPW/8.jpg" },
-  { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 459, title: "Visual Design Project 9", category: "Visual Design", image: "https://i.ibb.co.com/g310L3B/9.jpg" },
-  { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 5, title: "Project E", category: "UI/UX", image: "https://i.ibb.co.com/wp2s0Jx/Poricoy.png" },
-  { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 6, title: "Project F", category: "UI/UX", image: "https://i.ibb.co.com/m4BW3q7/SINSO.png" },
-  { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 7, title: "Project G", category: "UI/UX", image: "https://i.ibb.co.com/6rjdjhk/Teddy-Bear-INU.png" },
-  { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 8, title: "Project H", category: "UI/UX", image: "https://i.ibb.co.com/hMX8bcy/UIUX-Design.png" },
-  { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 2, title: "Project B", category: "UI/UX", image: "https://i.ibb.co.com/yfQ4S2y/IZI-Coin.png" },
-  { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 4510, title: "Visual Design Project 10", category: "Visual Design", image: "https://i.ibb.co.com/HK8D28L/10.png" },
-  { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 4513, title: "Visual Design Project 13", category: "Visual Design", image: "https://i.ibb.co.com/tXnPLJV/13.png" },
-  { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 4514, title: "Visual Design Project 14", category: "Visual Design", image: "https://i.ibb.co.com/7b9yqT0/14.png" },
-  { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 4515, title: "Visual Design Project 15", category: "Visual Design", image: "https://i.ibb.co.com/2d8DWDF/15.png" },
-  { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 4516, title: "Visual Design Project 16", category: "Visual Design", image: "https://i.ibb.co.com/vPYVHkr/16.png" },
-  { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 4517, title: "Visual Design Project 17", category: "Visual Design", image: "https://i.ibb.co.com/HTjTX0R/17.png" },
-  { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 4518, title: "Visual Design Project 18", category: "Visual Design", image: "https://i.ibb.co.com/Dw9JHZ4/18.png" },
-  { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 4519, title: "Visual Design Project 19", category: "Visual Design", image: "https://i.ibb.co.com/DrH6Xdn/19.png" },
-  { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 4520, title: "Visual Design Project 20", category: "Visual Design", image: "https://i.ibb.co.com/42h2NY2/20.png" },
-  { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 4521, title: "Visual Design Project 21", category: "Visual Design", image: "https://i.ibb.co.com/CVRLBLJ/21.png" },
-  { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 4522, title: "Visual Design Project 22", category: "Visual Design", image: "https://i.ibb.co.com/JphKJkz/22.png" },
-  { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 4523, title: "Visual Design Project 23", category: "Visual Design", image: "https://i.ibb.co.com/JrwgHRF/23.png" },
-  { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 4524, title: "Visual Design Project 24", category: "Visual Design", image: "https://i.ibb.co.com/5LxFC2q/24.png" },
+  { details: 'Thumbnail design for a YouTube channel showcasing Dubai tours, capturing vibrant landmarks and luxury experiences.' , id: 4526, title: "Youtube Thumbnail", category: "Visual Design", image: "https://i.ibb.co.com/M8FGFrQ/26.png" },
+  { details: 'Thumbnail design for a YouTube channel showcasing Kashmir tours and scenic landscapes' , id: 4527, title: "Youtube Thumbnail", category: "Visual Design", image: "https://i.ibb.co.com/cNKpyKJ/27.png" },
+  { details: 'Victory Day discount social media post design highlights special offers, celebrating freedom with unbeatable deals.' , id: 459, title: "Victory Day", category: "Visual Design", image: "https://i.ibb.co.com/g310L3B/9.jpg" },
+  { details: 'PORICOY app UI/UX design offers a seamless, user-friendly experience for secure and efficient identification management.' , id: 5, title: "PORICOY", category: "UI/UX", image: "https://i.ibb.co.com/wp2s0Jx/Poricoy.png" },
+  { details: 'SINSO Technology UI/UX design reflects the company focus on innovative Web-3 solutions, ensuring a seamless and intuitive UX.' , id: 6, title: "SINSO Technology", category: "UI/UX", image: "https://i.ibb.co.com/m4BW3q7/SINSO.png" },
+  { details: 'SOLUTION logo design embodies the slogan Service is Our Main Goal, reflecting a commitment to customer satisfaction and reliable solutions. ' , id: 4524, title: "SOLUTION", category: "Visual Design", image: "https://i.ibb.co.com/5LxFC2q/24.png" },
+  { details: 'Clouds Shop logo design represents a sleek, modern brand offering headphones and electronics, combining style and technology. ' , id: 4518, title: "Clouds", category: "Visual Design", image: "https://i.ibb.co.com/Dw9JHZ4/18.png" },
+  { details: 'PeerNFT website UI design features a modern, intuitive interface for seamless browsing, buying, and selling of NFTs. ' , id: 8, title: "PeerNFT", category: "UI/UX", image: "https://i.ibb.co.com/hMX8bcy/UIUX-Design.png" },
+  { details: 'IZI Coin UI design offers a clean, user-friendly interface for easy navigation and management of cryptocurrency transactions. ' , id: 2, title: "IZI Coin", category: "UI/UX", image: "https://i.ibb.co.com/yfQ4S2y/IZI-Coin.png" },
+  { details: 'Kindergarten poster design highlights playful, educational services focused on nurturing young minds.' , id: 4510, title: "Kindergarten Post", category: "Visual Design", image: "https://i.ibb.co.com/HK8D28L/10.png" },
+  { details: 'West_Mining ' , id: 334, title: 'West_MIning', category: "Digital Content", video: 'https://res.cloudinary.com/dkxmy7tds/video/upload/v1734340508/West_MIning_smnyrx.mp4' },
+  { details: 'Social media post for a coffee restaurant showcasing cozy ambiance, rich flavors, and quality brews ' , id: 4531, title: "Coffee", category: "Visual Design", image: "https://i.ibb.co.com/nCX6yPT/31.jpg" },
+  // { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 458, title: "Visual Design Project 8", category: "Visual Design", image: "https://i.ibb.co.com/XJ4RJPW/8.jpg" },
+  { details: 'The Music Royalty Co. logo design embodies elegance, professionalism, and music rights management. ' , id: 4519, title: "The Music Royalty Co.", category: "Visual Design", image: "https://i.ibb.co.com/DrH6Xdn/19.png" },
+  { details: 'Teddy Bear INU cryptocurrency website UI design combines playful branding with a sleek, user-friendly UI for easy navigation and trading.' , id: 7, title: "Teddy Bear INU", category: "UI/UX", image: "https://i.ibb.co.com/6rjdjhk/Teddy-Bear-INU.png" },
+  { details: 'Russos State Sales LLC logo design reflects professionalism and trust, representing the companys expertise in sales and services.' , id: 4520, title: "Russo's State Sales LLC", category: "Visual Design", image: "https://i.ibb.co.com/42h2NY2/20.png" },
+  // { details: 'Poricoy logo design symbolizes identity, security, and simplicity, reflecting the app focus on personal identification management.' , id: 4521, title: "Poricoy ", category: "Visual Design", image: "https://i.ibb.co.com/CVRLBLJ/21.png" },
+  { details: 'Blue Cloud Travels logo design represents adventure and reliability, reflecting the company commitment to seamless travel experiences. ' , id: 4522, title: "Blue Cloud Travels", category: "Visual Design", image: "https://i.ibb.co.com/JphKJkz/22.png" },
+  { details: 'Aruvika Semiconductor Pvt Ltd logo design represents innovation and precision in semiconductor technology. ' , id: 4523, title: "Aruvika Semiconductor Pvt Ltd", category: "Visual Design", image: "https://i.ibb.co.com/JrwgHRF/23.png" },
   // { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 4525, title: "Visual Design Project 25", category: "Visual Design", image: "https://i.ibb.co.com/z2TwB1j/25.png" },
-  { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 4526, title: "Visual Design Project 26", category: "Visual Design", image: "https://i.ibb.co.com/M8FGFrQ/26.png" },
-  { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 4527, title: "Visual Design Project 27", category: "Visual Design", image: "https://i.ibb.co.com/cNKpyKJ/27.png" },
   // { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 4528, title: "Visual Design Project 28", category: "Visual Design", image: "https://i.ibb.co.com/pfd5qpV/28.png" },
-  { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 4530, title: "Visual Design Project 30", category: "Visual Design", image: "https://i.ibb.co.com/YdNxDDG/30.jpg" },
-  { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 4531, title: "Visual Design Project 31", category: "Visual Design", image: "https://i.ibb.co.com/nCX6yPT/31.jpg" },
+  // { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 4530, title: "Visual Design Project 30", category: "Visual Design", image: "https://i.ibb.co.com/YdNxDDG/30.jpg" },
   
   //... more projects...
   
-  { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 334, title: 'West_MIning', category: "Digital Content", video: 'https://res.cloudinary.com/dkxmy7tds/video/upload/v1734340508/West_MIning_smnyrx.mp4' },
-  { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 335, title: 'Wesimining', category: "Digital Content", video: 'https://res.cloudinary.com/dkxmy7tds/video/upload/v1734340523/Wesimining_bgnvhw.mp4' },
-  { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 4532, title: "Visual Design Project 32", category: "Visual Design", image: "https://i.ibb.co.com/d2cw100/32.jpg" },
-  { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 331, title: 'Podcast', category: "Digital Content", video: 'https://res.cloudinary.com/dkxmy7tds/video/upload/v1734340763/Podcast_e2cfqv.mp4' },
-  { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 4529, title: "Visual Design Project 29", category: "Visual Design", image: "https://i.ibb.co.com/wQXqBBD/29.jpg" },
+  { details: 'Gadget Dock poster design showcases expert repair services for laptops, mobiles, and devices, offering quick and reliable solutions. ' , id: 4514, title: "Gadget Dock", category: "Visual Design", image: "https://i.ibb.co.com/7b9yqT0/14.png" },
+  { details: 'WestMining ' , id: 335, title: 'Wesimining', category: "Digital Content", video: 'https://res.cloudinary.com/dkxmy7tds/video/upload/v1734340523/Wesimining_bgnvhw.mp4' },
+  // { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 4532, title: "Visual Design Project 32", category: "Visual Design", image: "https://i.ibb.co.com/d2cw100/32.jpg" },
+  { details: 'AntiMiner S19 social media posts showcase powerful mining capabilities, efficiency, and high performance. ' , id: 454, title: "AntiMiner s19 Various", category: "Visual Design", image: "https://i.ibb.co.com/2gQ9LpM/4.jpg" },
+  { details: 'Podcast' , id: 331, title: 'Podcast', category: "Digital Content", video: 'https://res.cloudinary.com/dkxmy7tds/video/upload/v1734340763/Podcast_e2cfqv.mp4' },
+  { details: 'Metro rail YouTube thumbnail design highlighting sleek trains and efficient city transport. ' , id: 4529, title: "Metro Rail YouTube Thumbnail", category: "Visual Design", image: "https://i.ibb.co.com/wQXqBBD/29.jpg" },
 ];
 
 const Portfolio = ({ classicHeader, darkTheme }) => {
@@ -209,8 +209,8 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
                   <h5 className="card-title">{project.title}</h5>
                   <p className="card-text">
                     {
-                      project.details.length > 100
-                       ? project.details.slice(0, 100) + '...'
+                      project.details.length > 150
+                       ? project.details.slice(0, 150) + '...'
                         : project.details
                     }
                   </p>
