@@ -14,9 +14,9 @@ const Services = ({ classicHeader, darkTheme }) => {
       icon: "fas fa-pencil-ruler",
     },
     {
-      name: "Branding & Identity Design:",
+      name: "Brand Identity Design",
       desc: "Build a memorable and cohesive brand identity that stands out. We specialize in designing logos and brand elements that truly reflect your company’s values and mission, making your business unforgettable.",
-      icon: "fa-sharp fa-solid fa-pen-nib-slash",
+      icon: "fa-solid fa-briefcase",
     },
     {
       name: "Visual Design",

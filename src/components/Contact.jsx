@@ -63,7 +63,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
           <h2
             className={
               "text-24  text-uppercase fw-600 w-100 mb-0 " +
-              (darkTheme ? "text-muted opacity-1" : "text-light opacity-4")
+              (darkTheme ? "text-light opacity-1" : "text-muted opacity-4")
             }
           >
             Contact

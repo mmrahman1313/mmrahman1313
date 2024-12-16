@@ -34,6 +34,7 @@ const WorkingProcess = ({ classicHeader, darkTheme }) => {
       ];
       
       return (
+        
         <section
           id="WorkingProcess"
           className={"section " + (darkTheme ? "bg-dark-2" : "bg-light")}
