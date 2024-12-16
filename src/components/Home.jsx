@@ -57,7 +57,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                         loop: true,
                       }}
                     /> */}
-                    <h4 className="text-3  mt-2 ml-2 text-light">
+                    <h4 className="fw-350 text-3 text-light">
                       Creating stunning visuals and <br /> user-friendly designs
                       to elevate brands effectively.
                     </h4>
@@ -76,7 +76,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                 </p>
                 <a
                   href="#contact"
-                  className="btn btn-outline-primary rounded-pill shadow-none smooth-scroll mt-2"
+                  className="btn btn-outline-primary rounded-pill shadow-none smooth-scroll mt-4"
                   onClick={(e) => {
                     e.preventDefault();
                     handleNavClick("contact");

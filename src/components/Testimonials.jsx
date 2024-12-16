@@ -8,21 +8,21 @@ const Testimonials = ({ classicHeader, darkTheme }) => {
 
     {
       name: "Sinso Technology",
-      position: "Creative Director",
+      position: "Chinese Company",
       src: "ClientFeedback/Sinso Technology.png",
       desc: "The user interface is intuitive and easy to navigate. The design completely transformed the user experience. We're thrilled with the results!",
       rating: 5,
     },
     {
       name: "El Crazy",
-      position: "User from UK",
+      position: "User From Netherlands",
       src: "ClientFeedback/El Crazy.jpg",
       desc: "Incredible work on the redesign of our website. The UI is sleek, and the user journey is seamless. You've made navigating our platform easier than ever. Thank you for such an outstanding design!",
       rating: 5,
     },
     {
       name: "Joe Batchelor",
-      position: "CEO, Tech Solutions",
+      position: "Director of WISDOM CASTLE UK LTD",
       src: "ClientFeedback/Joe Batchelor .png",
       desc: "Amazing work on the marketing materials! The graphics were eye-catching and perfectly aligned with our brand. Thank you for your attention to detail and excellent execution!",
       rating: 5,
@@ -33,19 +33,19 @@ const Testimonials = ({ classicHeader, darkTheme }) => {
       name: "Leon Knight",
       position: "Business Owner, USA",
       src: "ClientFeedback/Leon Knight.jpg",
-      desc: "Incredible work on the redesign of our website. The UI is sleek, and the user journey is seamless. You've made navigating our platform easier than ever. Thank you for such an outstanding design!",
+      desc: "Exceptional UI/UX design—visually stunning, user-friendly, and perfectly aligned with our vision. Delivered a seamless experience that exceeded expectations. Highly recommend!",
       rating: 5,
     },
     {
       name: "KInkela",
-      position: "Marketing Specialist",
+      position: "User From Montenegro",
       src: "ClientFeedback/KInkela .jpg",
       desc: "Your digital content creation has truly elevated our marketing efforts. The videos are engaging, and the visuals have made a big difference in our overall strategy!",
       rating: 5,
     },
     {
       name: "Lymani Mehdi Oussama",
-      position: "Content Manager",
+      position: "User From Ukraine ",
       src: "ClientFeedback/Lymani Mehdi Oussama.png",
       desc: " Thanks to your branding work, our company now has a clear, recognizable identity. The logo and brand assets reflect our values perfectly. Excellent work!",
       rating: 5,
@@ -59,7 +59,7 @@ const Testimonials = ({ classicHeader, darkTheme }) => {
     },
     {
       name: "Rajshejhar Gupta",
-      position: "Brand Strategist",
+      position: "User From India",
       src: "ClientFeedback/Rajshejhar Gupta.jpg",
       desc: " You made our website not only visually appealing but also incredibly user-friendly. Our clients love it! A fantastic job on UI/UX design.",
       rating: 5,
@@ -139,7 +139,7 @@ const Testimonials = ({ classicHeader, darkTheme }) => {
                       >
                         {value.name}
                       </strong>
-                      <span className="text-muted fw-500">
+                      <span className="text-primary  fw-500">
                         {value.position}
                       </span>
                     </p>
