@@ -392,7 +392,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
           .map((project) => (
             <motion.div
               key={project.id}
-              className="col-lg-6 col-md-6 col-sm-12 mt-5"
+              className="col-lg-4 col-md-6 col-sm-12 mt-5"
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, ease: "easeOut" }}
@@ -464,6 +464,10 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
                       justifyContent: "center",
                       alignItems: "center",
                       flexDirection: "column",
+                      "@media (max-width: 768px)": {
+                        opacity: 1,
+                        y: 0,
+                      },
                     }}
                   >
                     <h5 className="card-title">{project.title}</h5>

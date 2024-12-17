@@ -30,7 +30,16 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
           <div className="container my-auto">
             <div className="row">
               <div className="col-12 text-center">
-                <h2 className="text-16 fw-600 text-white mb-2 mb-md-3">
+                <span className="bg-primary rounded-pill m-4   mb-lg-1 d-inline-block d-lg-none">
+                  <img
+                    className="img-fluid rounded-pill d-block"
+                    src="/Masum/mm.jpg"
+                    title="I'm Mashiur Rahman"
+                    alt="profile"
+                    style={{ width: "180px", height: "180px" }}
+                  />
+                </span>
+                <h2 className="text-14 fw-600 text-white mb-2 mb-md-3">
                   <Typewriter
                     options={{
                       strings: [
