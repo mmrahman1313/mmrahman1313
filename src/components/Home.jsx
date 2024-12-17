@@ -33,7 +33,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                 <span className="bg-primary rounded-pill m-4   mb-lg-1 d-inline-block d-lg-none">
                   <img
                     className="img-fluid rounded-pill d-block"
-                    src="/Masum/mm.jpg"
+                    src="/Masum/mm.png"
                     title="I'm Mashiur Rahman"
                     alt="profile"
                     style={{ width: "180px", height: "180px" }}
