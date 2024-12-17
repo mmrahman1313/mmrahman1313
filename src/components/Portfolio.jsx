@@ -470,13 +470,32 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
                       },
                     }}
                   >
-                    <h5 className="card-title">{project.title}</h5>
-                    <p className="card-text">
+                    <h5
+                      className="card-title"
+                      style={{
+                        "@media (max-width: 768px)": {},
+                      }}
+                    >
+                      {project.title}
+                    </h5>
+                    <p
+                      className="card-text"
+                      style={{
+                        "@media (max-width: 768px)": {},
+                      }}
+                    >
                       {project.details.slice(0, 150)}...
                     </p>
                     <motion.a
                       href="https://www.behance.net/MMRahman1313"
+                      target="_blank"
                       className="btn btn-outline-primary rounded-pill mt-2"
+                      style={{
+                        "@media (max-width: 768px)": {
+                          fontSize: "0.8rem",
+                          padding: "5px 10px",
+                        },
+                      }}
                     >
                       View Details
                     </motion.a>

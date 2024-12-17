@@ -14,10 +14,10 @@ const Contact = ({ classicHeader, darkTheme }) => {
     setSendingMail(true);
     emailjs
       .sendForm(
-        "service_i86k3ms",
-        "template_si6cin9",
+        "service_8hf1wsq",
+        "template_1ayas7g",
         form.current,
-        "c9HsDgGF0tvWyVnAL"
+        "WuFMc_-dWyzdhmFWq"
       )
       .then(
         (result) => {
@@ -199,7 +199,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
               <div className="row g-4">
                 <div className="col-xl-6">
                   <input
-                    name="user_name"
+                    name="to_name"
                     type="text"
                     className="form-control"
                     required
@@ -208,7 +208,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
                 </div>
                 <div className="col-xl-6">
                   <input
-                    name="user_email"
+                    name="from_name"
                     type="email"
                     className="form-control"
                     required

@@ -24,7 +24,7 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
             <span className="bg-primary rounded-pill m-4   mb-lg-1 d-none d-lg-inline-block">
               <img
                 className="img-fluid rounded-pill d-block"
-                src="/Masum/mm.jpg"
+                src="/Masum/mm.png"
                 title="I'm Mashiur Rahman"
                 alt="profile"
               />

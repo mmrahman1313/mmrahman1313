@@ -1,5 +1,23 @@
 import React from "react";
+
 const AboutUs = ({ classicHeader, darkTheme }) => {
+  // Function to calculate age
+  function calculateAge(dob) {
+    const birthDate = new Date(dob);
+    const today = new Date();
+    let age = today.getFullYear() - birthDate.getFullYear();
+
+    const monthDifference = today.getMonth() - birthDate.getMonth();
+    if (
+      monthDifference < 0 ||
+      (monthDifference === 0 && today.getDate() < birthDate.getDate())
+    ) {
+      age--;
+    }
+
+    return age;
+  }
+
   return (
     <section id="about" className={"section " + (darkTheme ? "bg-dark-1" : "")}>
       <div className={"container " + (classicHeader ? "" : "px-lg-5")}>
@@ -32,22 +50,39 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 "text-6 fw-600 mb-3 " + (darkTheme ? "text-white" : "")
               }
             >
-              I'm <span className="text-primary">Md. Mashiur Rahman,</span> a passionate Graphic Designer, UI/UX Designer, and Branding Expert
+              I'm <span className="text-primary">Md. Mashiur Rahman,</span> a
+              passionate Graphic Designer, UI/UX Designer, and Branding Expert
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
-              with over 4 years of experience. Based in Bangladesh, I specialize in transforming creative concepts into visually captivating digital experiences that help brands stand out.
+              with over 4 years of experience. Based in Bangladesh, I specialize
+              in transforming creative concepts into visually captivating
+              digital experiences that help brands stand out.
             </p>
             <p className={darkTheme ? "text-white-50" : ""}>
-              Throughout my career, I’ve had the privilege of working with various clients across multiple industries, helping them create impactful, user-centric designs. I’ve collaborated with both small businesses and large corporations, delivering tailored solutions that align with their goals and elevate their digital presence.
+              Throughout my career, I’ve had the privilege of working with
+              various clients across multiple industries, helping them create
+              impactful, user-centric designs. I’ve collaborated with both small
+              businesses and large corporations, delivering tailored solutions
+              that align with their goals and elevate their digital presence.
             </p>
             <p className={darkTheme ? "text-white-50" : ""}>
-              As the CEO of Wizardd IT, I’m also involved in leading a team that offers a range of IT services, including design, development, and digital strategy. My expertise lies in creating intuitive user interfaces, innovative graphic designs, and memorable brand identities that leave a lasting impression.
+              As the CEO of Wizardd IT, I’m also involved in leading a team that
+              offers a range of IT services, including design, development, and
+              digital strategy. My expertise lies in creating intuitive user
+              interfaces, innovative graphic designs, and memorable brand
+              identities that leave a lasting impression.
             </p>
             <p className={darkTheme ? "text-white-50" : ""}>
-            I believe design goes beyond aesthetics—it’s about creating a seamless experience that engages users and drives results. With a strong foundation in Computer Science and Engineering, I approach each project with a technical mindset, ensuring designs are not only beautiful but also functional.
+              I believe design goes beyond aesthetics—it’s about creating a
+              seamless experience that engages users and drives results. With a
+              strong foundation in Computer Science and Engineering, I approach
+              each project with a technical mindset, ensuring designs are not
+              only beautiful but also functional.
             </p>
             <p className={darkTheme ? "text-white-50" : ""}>
-            I’m always looking for new challenges and opportunities to push the boundaries of design. Let’s work together to bring your ideas to life and elevate your brand!
+              I’m always looking for new challenges and opportunities to push
+              the boundaries of design. Let’s work together to bring your ideas
+              to life and elevate your brand!
             </p>
           </div>
           {/* About me content end */}
@@ -70,7 +105,8 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                   </a>
                 </li>
                 <li>
-                  <span className="fw-600 me-2">Age:</span>24
+                  <span className="fw-600 me-2">Age:</span>
+                  {calculateAge("2000-04-16")}
                 </li>
                 <li className="border-0">
                   <span className="fw-600 me-2">From:</span>Narayanganj- 1450,
