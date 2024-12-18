@@ -30,7 +30,16 @@ const Services = ({ classicHeader, darkTheme }) => {
     },
     {
       name: "Wizardd IT",
-      desc: "Need Service and complete project solutions? Contact Wizardd IT for end-to-end services that bring your vision to life. Visit wizarddit.com and let's create something exceptional together!",
+      desc: (
+        <>
+          Need Service and complete project solutions? Contact Wizardd IT for
+          end-to-end services that bring your vision to life. Visit{" "}
+          <a className="text-primary"  rel="noopener noreferrer" target="_blank" href="https://wizarddit.com" >
+            wizarddit.com
+          </a>{" "}
+          and let's create something exceptional together!
+        </>
+      ),
       icon: "fa-solid fa-hat-wizard",
     },
   ];
