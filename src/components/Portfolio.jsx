@@ -12,7 +12,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       id: 1,
       title: "Elephant Coin",
       category: "UI/UX",
-      image: "https://i.ibb.co.com/23yYWR9/Elephant.png",
+      image: "https://res.cloudinary.com/dms2ouft5/image/upload/v1734506548/Elephant_iizywx.png",
     },
     {
       details:
@@ -20,7 +20,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       id: 9,
       title: "West Mining",
       category: "UI/UX",
-      image: "https://i.ibb.co.com/fQDx2py/West-Mining.png",
+      image: "https://res.cloudinary.com/dms2ouft5/image/upload/v1734506548/WestMining_zdhe7w.png",
     },
     {
       details: "Wizarddit ",
@@ -28,7 +28,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       title: "Wizardd IT",
       category: "Digital Content",
       video:
-        "https://res.cloudinary.com/dkxmy7tds/video/upload/v1734340577/Wizardd_it_video_rs7qja.mp4",
+        "https://res.cloudinary.com/dms2ouft5/video/upload/v1734511329/Wizardd_it_video_redonw.mp4",
     },
     {
       details: "West Mining Intro ",
@@ -36,7 +36,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       title: "West Mining Intro",
       category: "Digital Content",
       video:
-        "https://res.cloudinary.com/dkxmy7tds/video/upload/v1734340742/West_Mining_Intro_xuhrtf.mp4",
+        "https://res.cloudinary.com/dms2ouft5/video/upload/v1734511353/West_Mining_Intro_alf7xv.mp4",
     },
     {
       details:
@@ -44,7 +44,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       id: 4513,
       title: "Stationary for Cleaning Company",
       category: "Visual Design",
-      image: "https://i.ibb.co.com/tXnPLJV/13.png",
+      image: "https://res.cloudinary.com/dms2ouft5/image/upload/v1734510263/13_cw8gcx.png",
     },
     {
       details:
@@ -52,7 +52,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       id: 4515,
       title: "MONSTACKDEV Logo",
       category: "Visual Design",
-      image: "https://i.ibb.co.com/2d8DWDF/15.png",
+      image: "https://res.cloudinary.com/dms2ouft5/image/upload/v1734510265/15_kfzure.png",
     },
     {
       details:
@@ -60,7 +60,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       id: 4511,
       title: "Eletricare Poster",
       category: "Visual Design",
-      image: "https://i.ibb.co.com/L0bPVT5/11.png",
+      image: "https://res.cloudinary.com/dms2ouft5/image/upload/v1734510261/11_otpqh5.png",
     },
     {
       details:
@@ -68,7 +68,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       id: 3,
       title: "World Jewellery",
       category: "UI/UX",
-      image: "https://i.ibb.co.com/WGg216j/Jewellery.png",
+      image: "https://res.cloudinary.com/dms2ouft5/image/upload/v1734506547/Jewellery_agcdws.png",
     },
     {
       details:
@@ -76,7 +76,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       id: 451,
       title: "Victory Day of Bangladesh",
       category: "Visual Design",
-      image: "https://i.ibb.co.com/1ryNP79/1.jpg",
+      image: "https://res.cloudinary.com/dms2ouft5/image/upload/v1734510260/9_wdpisu.jpg",
     },
     {
       details:
@@ -84,7 +84,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       id: 4512,
       title: "Tree Care",
       category: "Visual Design",
-      image: "https://i.ibb.co.com/mDNhjYF/12.png",
+      image: "https://res.cloudinary.com/dms2ouft5/image/upload/v1734510262/12_rayfh2.png",
     },
     {
       details:
@@ -92,7 +92,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       id: 4,
       title: "Mind Fit",
       category: "UI/UX",
-      image: "https://i.ibb.co.com/PztztDB/MIndfit.png",
+      image: "https://res.cloudinary.com/dms2ouft5/image/upload/v1734506547/MIndfit_rz1crp.png",
     },
     // { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 453, title: "Visual Design Project 3", category: "Visual Design", image: "https://i.ibb.co.com/jhZdkL9/3.jpg" },
     {
@@ -101,7 +101,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       id: 4516,
       title: "Crypto Pay",
       category: "Visual Design",
-      image: "https://i.ibb.co.com/vPYVHkr/16.png",
+      image: "https://res.cloudinary.com/dms2ouft5/image/upload/v1734510266/16_fjtdz0.png",
     },
     {
       details:
@@ -109,7 +109,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       id: 452,
       title: "Mining Equipment ",
       category: "Visual Design",
-      image: "https://i.ibb.co.com/SKGkQw3/2.jpg",
+      image: "https://res.cloudinary.com/dms2ouft5/image/upload/v1734510258/2_hlv8zk.jpg",
     },
     {
       details:
@@ -117,25 +117,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       id: 4517,
       title: "ADONAI CREATIONS",
       category: "Visual Design",
-      image: "https://i.ibb.co.com/HTjTX0R/17.png",
-    },
-
-    // { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 457, title: "Visual Design Project 7", category: "Visual Design", image: "https://i.ibb.co.com/FJ9GbDy/7.jpg" },
-    {
-      details:
-        "Thumbnail design for a YouTube channel showcasing Dubai tours, capturing vibrant landmarks and luxury experiences.",
-      id: 4526,
-      title: "Youtube Thumbnail",
-      category: "Visual Design",
-      image: "https://i.ibb.co.com/M8FGFrQ/26.png",
-    },
-    {
-      details:
-        "Thumbnail design for a YouTube channel showcasing Kashmir tours and scenic landscapes",
-      id: 4527,
-      title: "Youtube Thumbnail",
-      category: "Visual Design",
-      image: "https://i.ibb.co.com/cNKpyKJ/27.png",
+      image: "https://res.cloudinary.com/dms2ouft5/image/upload/v1734510267/17_jhk7us.png",
     },
     {
       details:
@@ -143,7 +125,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       id: 459,
       title: "Victory Day",
       category: "Visual Design",
-      image: "https://i.ibb.co.com/g310L3B/9.jpg",
+      image: "https://res.cloudinary.com/dms2ouft5/image/upload/v1734510258/1_zzboku.jpg",
     },
     {
       details:
@@ -151,7 +133,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       id: 5,
       title: "PORICOY",
       category: "UI/UX",
-      image: "https://i.ibb.co.com/wp2s0Jx/Poricoy.png",
+      image: "https://res.cloudinary.com/dms2ouft5/image/upload/v1734506548/Poricoy_ntnhir.png",
     },
     {
       details:
@@ -159,7 +141,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       id: 6,
       title: "SINSO Technology",
       category: "UI/UX",
-      image: "https://i.ibb.co.com/m4BW3q7/SINSO.png",
+      image: "https://res.cloudinary.com/dms2ouft5/image/upload/v1734506547/SINSO_gwxe6p.png",
     },
     {
       details:
@@ -167,7 +149,33 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       id: 4524,
       title: "SOLUTION",
       category: "Visual Design",
-      image: "https://i.ibb.co.com/5LxFC2q/24.png",
+      image: "https://res.cloudinary.com/dms2ouft5/image/upload/v1734510273/24_otyztl.png",
+    },
+    {
+      details:
+        "Metro rail YouTube thumbnail design highlighting sleek trains and efficient city transport. ",
+      id: 4529,
+      title: "Metro Rail YouTube Thumbnail",
+      category: "Visual Design",
+      image: "https://res.cloudinary.com/dms2ouft5/image/upload/v1734510276/29_eucrhz.jpg",
+    },
+
+    // { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 457, title: "Visual Design Project 7", category: "Visual Design", image: "image" },
+    {
+      details:
+        "Thumbnail design for a YouTube channel showcasing Dubai tours, capturing vibrant landmarks and luxury experiences.",
+      id: 4526,
+      title: "Youtube Thumbnail",
+      category: "Visual Design",
+      image: "https://res.cloudinary.com/dms2ouft5/image/upload/v1734510277/26_hyr5ke.png",
+    },
+    {
+      details:
+        "Thumbnail design for a YouTube channel showcasing Kashmir tours and scenic landscapes",
+      id: 4527,
+      title: "Youtube Thumbnail",
+      category: "Visual Design",
+      image: "https://res.cloudinary.com/dms2ouft5/image/upload/v1734510278/27_is4umy.png",
     },
     {
       details:
@@ -175,7 +183,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       id: 4518,
       title: "Clouds",
       category: "Visual Design",
-      image: "https://i.ibb.co.com/Dw9JHZ4/18.png",
+      image: "https://res.cloudinary.com/dms2ouft5/image/upload/v1734510268/18_wgsafn.png",
     },
     {
       details:
@@ -183,7 +191,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       id: 8,
       title: "PeerNFT",
       category: "UI/UX",
-      image: "https://i.ibb.co.com/hMX8bcy/UIUX-Design.png",
+      image: "https://res.cloudinary.com/dms2ouft5/image/upload/v1734506547/UIUX-Design_zy1dh8.png",
     },
     {
       details:
@@ -191,23 +199,23 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       id: 2,
       title: "IZI Coin",
       category: "UI/UX",
-      image: "https://i.ibb.co.com/yfQ4S2y/IZI-Coin.png",
+      image: "https://res.cloudinary.com/dms2ouft5/image/upload/v1734506548/IZI_Coin_ih5sg9.png",
     },
-    {
-      details:
-        "Kindergarten poster design highlights playful, educational services focused on nurturing young minds.",
-      id: 4510,
-      title: "Kindergarten Post",
-      category: "Visual Design",
-      image: "https://i.ibb.co.com/HK8D28L/10.png",
-    },
+    // {
+    //   details:
+    //     "Kindergarten poster design highlights playful, educational services focused on nurturing young minds.",
+    //   id: 4510,
+    //   title: "Kindergarten Post",
+    //   category: "Visual Design",
+    //   image: "https://res.cloudinary.com/dms2ouft5/image/upload/v1734510260/10_q4ary0.png",
+    // },
     {
       details: "West_Mining ",
       id: 334,
       title: "West_MIning",
       category: "Digital Content",
       video:
-        "https://res.cloudinary.com/dkxmy7tds/video/upload/v1734340508/West_MIning_smnyrx.mp4",
+        "https://res.cloudinary.com/dms2ouft5/video/upload/v1734511301/West_MIning_mzvqwt.mp4",
     },
     {
       details:
@@ -215,7 +223,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       id: 4531,
       title: "Coffee",
       category: "Visual Design",
-      image: "https://i.ibb.co.com/nCX6yPT/31.jpg",
+      image: "https://res.cloudinary.com/dms2ouft5/image/upload/v1734510282/32_n7qu5i.jpg",
     },
     // { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 458, title: "Visual Design Project 8", category: "Visual Design", image: "https://i.ibb.co.com/XJ4RJPW/8.jpg" },
     {
@@ -224,7 +232,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       id: 4519,
       title: "The Music Royalty Co.",
       category: "Visual Design",
-      image: "https://i.ibb.co.com/DrH6Xdn/19.png",
+      image: "https://res.cloudinary.com/dms2ouft5/image/upload/v1734510269/19_nlbtaa.png",
     },
     {
       details:
@@ -232,7 +240,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       id: 7,
       title: "Teddy Bear INU",
       category: "UI/UX",
-      image: "https://i.ibb.co.com/6rjdjhk/Teddy-Bear-INU.png",
+      image: "https://res.cloudinary.com/dms2ouft5/image/upload/v1734506547/Teddy_Bear_INU_f0fibz.png",
     },
     {
       details:
@@ -240,7 +248,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       id: 4520,
       title: "Russo's State Sales LLC",
       category: "Visual Design",
-      image: "https://i.ibb.co.com/42h2NY2/20.png",
+      image: "https://res.cloudinary.com/dms2ouft5/image/upload/v1734510270/20_sj9kej.png",
     },
     // { details: 'Poricoy logo design symbolizes identity, security, and simplicity, reflecting the app focus on personal identification management.' , id: 4521, title: "Poricoy ", category: "Visual Design", image: "https://i.ibb.co.com/CVRLBLJ/21.png" },
     {
@@ -249,7 +257,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       id: 4522,
       title: "Blue Cloud Travels",
       category: "Visual Design",
-      image: "https://i.ibb.co.com/JphKJkz/22.png",
+      image: "https://res.cloudinary.com/dms2ouft5/image/upload/v1734510271/22_wbwbam.png",
     },
     {
       details:
@@ -257,8 +265,25 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       id: 4523,
       title: "Aruvika Semiconductor Pvt Ltd",
       category: "Visual Design",
-      image: "https://i.ibb.co.com/JrwgHRF/23.png",
+      image: "https://res.cloudinary.com/dms2ouft5/image/upload/v1734510273/23_hdnr5n.png",
     },
+    {
+      details:
+        "AZ Coffee Letter Logo blends sleek typography with coffee vibes, embodying warmth, quality, and modern style for a welcoming coffee restaurant. ",
+      id: 4514,
+      title: "AZ letter Coffee",
+      category: "Visual Design",
+      image: "https://res.cloudinary.com/dms2ouft5/image/upload/v1734510278/31_usvtkc.jpg",
+    },
+    {
+      details:
+        "I designed a visually engaging poster for a coffee restaurant, blending warm tones, inviting graphics, and compelling text to attract coffee lovers ",
+      id: 4514,
+      title: "Coffee Restaurant Post",
+      category: "Visual Design",
+      image: "https://res.cloudinary.com/dms2ouft5/image/upload/v1734510277/30_p0ybrc.jpg",
+    },
+
     // { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 4525, title: "Visual Design Project 25", category: "Visual Design", image: "https://i.ibb.co.com/z2TwB1j/25.png" },
     // { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 4528, title: "Visual Design Project 28", category: "Visual Design", image: "https://i.ibb.co.com/pfd5qpV/28.png" },
     // { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 4530, title: "Visual Design Project 30", category: "Visual Design", image: "https://i.ibb.co.com/YdNxDDG/30.jpg" },
@@ -271,7 +296,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       id: 4514,
       title: "Gadget Dock",
       category: "Visual Design",
-      image: "https://i.ibb.co.com/7b9yqT0/14.png",
+      image: "https://res.cloudinary.com/dms2ouft5/image/upload/v1734510264/14_ygbpnx.png",
     },
     {
       details: "WestMining ",
@@ -279,7 +304,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       title: "Wesimining",
       category: "Digital Content",
       video:
-        "https://res.cloudinary.com/dkxmy7tds/video/upload/v1734340523/Wesimining_bgnvhw.mp4",
+        "https://res.cloudinary.com/dms2ouft5/video/upload/v1734511299/Wesimining_zcdkwe.mp4",
     },
     // { details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed ' , id: 4532, title: "Visual Design Project 32", category: "Visual Design", image: "https://i.ibb.co.com/d2cw100/32.jpg" },
     {
@@ -288,7 +313,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       id: 454,
       title: "AntiMiner s19 Various",
       category: "Visual Design",
-      image: "https://i.ibb.co.com/2gQ9LpM/4.jpg",
+      image: "https://res.cloudinary.com/dms2ouft5/image/upload/v1734510259/4_qbtxxx.jpg",
     },
     {
       details: "Podcast",
@@ -296,15 +321,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       title: "Podcast",
       category: "Digital Content",
       video:
-        "https://res.cloudinary.com/dkxmy7tds/video/upload/v1734340763/Podcast_e2cfqv.mp4",
-    },
-    {
-      details:
-        "Metro rail YouTube thumbnail design highlighting sleek trains and efficient city transport. ",
-      id: 4529,
-      title: "Metro Rail YouTube Thumbnail",
-      category: "Visual Design",
-      image: "https://i.ibb.co.com/wQXqBBD/29.jpg",
+        "https://res.cloudinary.com/dms2ouft5/video/upload/v1734511364/Podcast_iitzrr.mp4",
     },
   ];
 
