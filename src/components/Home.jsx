@@ -22,7 +22,11 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
             autoPlay
             muted
             loop
-            style={{ width: "100%", height: "100vh", objectFit: "cover" }}
+            style={{
+              width: "100%",
+              height: "100vh",
+              objectFit: "cover",
+            }}
           ></video>
         </div>
 
